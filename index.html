@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/php/add_product.css">
+    <title>Medicine Inventory</title>
+</head>
+<body>
+    <header>
+        <h1>Medicine Inventory Management</h1>
+        <nav>
+            <button onclick="location.href='php/add_product.php'">Add Product</button>
+            <button onclick="location.href='php/view_products.php'">View Products</button>
+        </nav>
+    </header>
+    <main>
+        <form method="GET" action="php/view_products.php">
+            <input type="text" name="search" placeholder="Search products by name">
+            <button type="submit">Search</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Medicine Inventory Management. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
